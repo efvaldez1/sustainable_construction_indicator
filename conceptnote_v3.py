@@ -64,6 +64,11 @@ def main():
 
     # --- Keyword Management Interface ---
     st.sidebar.header("Manage Keywords")
+    st.sidebar.info(
+    """
+    This application is a prototype of the concept note for the Sustainable Construction Indicator Matrix, which is organized by dimension, thematic group, and sub-dimension.
+    """
+    )
     keyword_data = display_keyword_management()
  
 
